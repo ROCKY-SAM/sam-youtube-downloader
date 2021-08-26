@@ -1,13 +1,139 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+* {
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	/* background-image: linear-gradient(to right top, #2d0036, #4f015b, #730283, #9a02ac, #C400D7); */
+	font-family: Montserrat, sans-serif;
+	background-color: #2f2864;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+ 
+	margin: 0;
+}
+
+h3 {
+	margin: 10px 0;
+  font-size:17px;
+}
+
+h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+  font-size: 20px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.card-container {
+	background-color: #231E39;
+	border-radius: 25px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+	color: #B3B8CD;
+	padding: 30px 0 0;
+	position: relative;
+  width: 480px;
+ 
+	text-align: center;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+.card-container .pro {
+	color: #231E39;
+	background-color: #FEBB0B;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 7px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.card-container img {
+	border: 1px solid #C400D7;
+	border-radius: 50%;
+	padding: 7px;
+	height: 150px;
+	width: 150px;
+}
+
+button.primary {
+	background-color: #B419D5;
+  border: 1px solid #C400D7;
+  border-radius: 20px;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  padding: 10px 29px;
+  margin: 5px;
+}
+
+button.primary.ghost {
+	background-color: transparent;
+	color: #C400D7;
+}
+
+.skills {
+	background-color: #1F1A36;
+	text-align: left;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.skills ul li {
+	border: 1px solid #2D2747;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
+
+.video{
+  width: 120%;
+height: 255px;
+border-radius: 12px;
+border: none;
+}
+
+ 
+.textInput{
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  transition: 0.4s;
+
+}
+
+
+.textInput input{
+  border-radius: 22px;
+  outline: none;
+  border:none;
+  padding: 16px;
+  width: 75%;
+  transition: 0.4s;
+}
+
+.downloadFrame{
+  width: 100%;
+  height: 400px;
+  border: none;
 }

@@ -13,7 +13,7 @@ function App() {
       if(value.includes('https://youtu.be/')){
         setSearchInfo(value.includes('https://youtu.be/')?value.split("https://youtu.be/")[1]:"");
       }else{
-      setSearchInfo(value.includes('v=')?value.split("v=")[1].split("&")[0]:"");
+        setSearchInfo(value.includes('v=')?value.split("v=")[1].split("&")[0]:"");
       }
     }
   }
@@ -26,7 +26,7 @@ function App() {
     }else if(value == "Video"){
       endpoint = `https://api.vevioz.com/@api/button/videos/all/${searchInfo}`;
     }
-    let finalUrl = `<iframe src="${endpoint}" scrolling="no" class="downloadFrame"></iframe>`;
+    let finalUrl = `<iframe src="${endpoint}"  class="downloadFrame"></iframe>`;
     setResults(finalUrl);
   }
 
@@ -35,7 +35,7 @@ function App() {
 
       <div className="card-container">
         {/* <span class="pro">PRO</span> */}
-        <h6>Sam's YTube Downloader</h6>
+        <h6>Sam YTube Downloader</h6>
 
         {(searchInfo) ? 
         <iframe className='video'

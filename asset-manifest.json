@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sam-youtube-downloader/static/css/main.2defd0f7.chunk.css",
+    "main.js": "/sam-youtube-downloader/static/js/main.0f87d7d3.chunk.js",
+    "main.js.map": "/sam-youtube-downloader/static/js/main.0f87d7d3.chunk.js.map",
+    "runtime-main.js": "/sam-youtube-downloader/static/js/runtime-main.894cab47.js",
+    "runtime-main.js.map": "/sam-youtube-downloader/static/js/runtime-main.894cab47.js.map",
+    "static/js/2.d81cdd53.chunk.js": "/sam-youtube-downloader/static/js/2.d81cdd53.chunk.js",
+    "static/js/2.d81cdd53.chunk.js.map": "/sam-youtube-downloader/static/js/2.d81cdd53.chunk.js.map",
+    "index.html": "/sam-youtube-downloader/index.html",
+    "static/css/main.2defd0f7.chunk.css.map": "/sam-youtube-downloader/static/css/main.2defd0f7.chunk.css.map",
+    "static/js/2.d81cdd53.chunk.js.LICENSE.txt": "/sam-youtube-downloader/static/js/2.d81cdd53.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.894cab47.js",
+    "static/js/2.d81cdd53.chunk.js",
+    "static/css/main.2defd0f7.chunk.css",
+    "static/js/main.0f87d7d3.chunk.js"
+  ]
+}

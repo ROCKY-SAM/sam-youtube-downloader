@@ -10,7 +10,11 @@ function App() {
   const handleSearch =  (value) => {
     setSearch(value);
     if(value){
+      if(value.includes('https://youtu.be/')){
+        setSearchInfo(value.includes('https://youtu.be/')?value.split("https://youtu.be/")[1]:"");
+      }else{
       setSearchInfo(value.includes('v=')?value.split("v=")[1].split("&")[0]:"");
+      }
     }
   }
 
